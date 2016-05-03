@@ -1,0 +1,12 @@
+{
+    "name": "fizzka/phantomjs-source-capture",
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "fizzka",
+            "email": "fizz@pisem.net"
+        }
+    ],
+    "bin": ["phantomjs-source-capture"],
+    "require": {}
+}
