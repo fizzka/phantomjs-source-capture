@@ -20,6 +20,6 @@ composer install
 or
 
 ```
-composer require fizzka/docker-phantomjs
+composer require fizzka/phantomjs-source-capture
 ./vendor/bin/phantomjs-source-capture <URL>
 ```
