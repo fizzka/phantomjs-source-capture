@@ -14,7 +14,7 @@ Package runs not so fast, so do not use it as default to parse billion pages ;)
 
 ```
 composer install
-./bin/phantomjs-source-capture <URL>
+./phantomjs-source-capture <URL>
 ```
 
 or
