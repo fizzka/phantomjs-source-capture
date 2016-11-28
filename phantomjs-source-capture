@@ -1,3 +1,5 @@
 #!/bin/sh
 
-docker run --rm fizzka/phantomjs-source-capture $1
+IMAGE=${IMAGE:-fizzka/phantomjs-source-capture}
+
+docker run --rm $IMAGE $1
