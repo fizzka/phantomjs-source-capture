@@ -9,6 +9,7 @@ if (!url || url == '--help') {
 
 var page = require('webpage').create();
 page.settings.userAgent = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36';
+page.settings.resourceTimeout = 2000;
 
 page.open(url, function (status) {
     if (status !== 'success') {
